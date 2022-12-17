@@ -1,0 +1,230 @@
+.welcome{
+    display: inline-block;
+    width: 25vw;
+    height: 8vh;
+    border: 4px solid rgb(203, 183, 183);
+    
+    background-image: linear-gradient(to right top, #172232, #05232d, #022223, #0b2017, #161c0a);
+   
+    /* background-color: red; */
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  
+
+  border:dashed 5px rgb(243, 241, 241);
+  margin-bottom: 4vh;
+}
+.welcome h3{
+    margin: 10px;
+    margin-top: 10px;
+    color: beige;
+    font-size: 3.5vh;
+   
+}
+.header__main{
+    padding-left: 10vw;
+}
+
+header{
+    background: url(../img/banner-bg.png) no-repeat center / cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 25px 40px;
+    transition: all 0.5s ease;
+    position: fixed;
+    z-index: 9998;
+  }
+  nav.sticky{
+    transition: 0.5s ease;
+    padding: 15px 30px;
+    background-color: #202428;
+  }
+  nav.sticky .logo{
+    color: #fff;
+  }
+  nav.sticky .logo span{
+    color: #fff;
+  }
+  nav.sticky .nav__link{
+    border: none;
+    text-transform: uppercase;
+  }
+  nav.sticky .nav__link:hover{
+    background-color: none;
+  }
+  nav.sticky .search{
+    background: #fff;
+  }
+  nav.sticky .search__button{
+    background: #fff;
+  }
+  .nav__list{
+    display: flex;
+  }
+  .nav__blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav__part{
+    display: flex;
+  }
+  .end{
+    display: flex;
+  }
+  .account{
+    display: flex;
+  }
+  
+  
+  .profil{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 5px;
+  }
+  .logo{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 36px;
+    color: #33ff00;
+  }
+  .logo span{
+    color: #f3a600;
+  }
+  .logo:hover{
+    /* background: #1a2a6c;  fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .nav__link{
+    display: block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 8px 16px;
+    border: 1px solid #f4f7f3;
+    border-radius: 20px;
+  }
+  
+  .nav__link:hover{
+    background-color: #edf2ecec;
+    color: #000;
+    transition: 0.5s ease;
+  }
+  
+  
+  /* Search-button */
+  .nav__search{
+    display: flex;
+    justify-content: space-between;
+  }
+  .search__container{
+    display: flex;
+    float: right;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    height: 40px;
+  }
+  .search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    background: #52c234;
+    background: -webkit-linear-gradient(to right, #2a800b, #52c234);
+    background: linear-gradient(to right, #68fd3f, #40ff00);
+    width: 200px;
+  }
+  .search:focus{
+    outline: none;
+  }
+  .search:hover{
+    background-color: #fff;
+  }
+  .material-icons{
+    font-size: 20px;
+    color: red;
+  }
+  .search__button{
+    display: block;
+    margin-left: 5px;
+    color: #000;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: #52c234;
+    background: -webkit-linear-gradient(to right, #2a800b, #52c234);
+    background: linear-gradient(to right, #64ff39, #63ff2e); 
+  }
+  .search__button:focus{
+    outline: none;
+  }
+  
+  
+  .header__left{
+    color: #fff;
+    margin: 0 50px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav__text{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .nav__name{
+    font-size: 76px;
+    font-weight: 900;
+    font-style: italic;
+    color: #f2f2f0;
+    padding: 20px 0;
+  }
+  .nav__info{
+    margin-left: 5px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+  .nav__info span{
+    color: #f3a600;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .main__head__link{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 30px;
+    border: 1px solid #33ff00;
+    border-radius: 24px;
+    font-family: 'Roboto';
+  }
+  .main__head__link:hover{
+    background: #09ff00;
+    transition: 0.5s;
+  }
+  
