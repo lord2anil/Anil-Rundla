@@ -24,7 +24,7 @@ function Skill() {
                 <Skill1 source="https://icongr.am/devicon/python-plain-wordmark.svg?size=119&color=ffffff" alt="The logo icon for NodeJS" title="Node JS"/>
                 <Skill1 source="https://icongr.am/devicon/visualstudio-plain-wordmark.svg?size=300&color=ffffff" alt="The logo icon for NodeJS" title="Node JS"/>
                 <Skill1 source={javascript} alt="The logo icon for NodeJS" title="Node JS"/>
-                <Skill1 source="https://icongr.am/devicon/cplusplus-plain.svg?size=148&color=ffffff" alt="The logo icon for NodeJS" title="Node JS"/>
+                <Skill1 source="https://img.icons8.com/color/48/null/tailwind_css.png" alt="The logo icon for NodeJS" title="Node JS"/>
             </div>            
         </div>
     )

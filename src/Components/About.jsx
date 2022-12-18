@@ -4,7 +4,7 @@ import "./css/style.css";
 import "./css/media.css";
 
 import "./css/Info.css";
-import url from "./img/pngfind.com-business-man-png-1737582.png"
+import url from "../assets/img/my.jpg"
 import TrackVisibility from 'react-on-screen';
 // import { isVisible } from '@testing-library/user-event/dist/utils';
 export default function About() {
@@ -26,12 +26,12 @@ export default function About() {
         </div>
         <div className="info__box">
             <div className="info__image">
-                <img className="info__img" src={url} alt=""/>
+                <img className="info__img" style={{borderRadius: '80%'}} src={url} alt=""/>
             </div>
             <div className="info__blog">
-                <h3 className="info__typing">I'm Suyunbek and I'm a <span className="typing__two"></span></h3>
-                <p className="info__text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio    commodi officia unde esse iusto quam mollitia natus expedita. Modi possimus quidem cum</p>
-                <p className="info__text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum    voluptatibus obcaecati dignissimos nihil laborum accusantium, culpa iure illo, omnis   excepturi necessitatibus consequatur vitae ipsa dolor corporis quia autem architecto.</p>
+                <h3 className="info__typing">I'm Anil and I'm a <span className="typing__two"></span></h3>
+                <p className="info__text1">Experienced web developer with a strong background in data structures and algorithms. Skilled in developing high-quality, scalable web applications using modern frameworks and technologies.</p>
+                <p className="info__text2">Proficient in implementing efficient algorithms for complex data processing tasks. Looking to connect with professionals in the tech industry and explore new opportunities in web development and data engineering.</p>
                 {/* <a href="https://myaccount.google.com/profile" className="info__link1">From Google</a>
                 <a href="#projects" className="info__link2">Projects</a> */}
             </div>

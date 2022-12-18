@@ -1,6 +1,10 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import url from "./img/bootstrap.svg"
+import chat from "../assets/img/chat.png"
+import news from "../assets/img/news.jpg"
+import path from "../assets/img/path.png"
+import cart from "../assets/img/cart.jpg"
+import notes from "../assets/img/notes.png"
 
 
 import TrackVisibility from 'react-on-screen';
@@ -10,55 +14,44 @@ import TrackVisibility from 'react-on-screen';
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl:url,
+      title: "Chat app",
+      description: `A small functional person-to-person message center application built using Socket.io, Node js . The dataBase is
+      MongoDB. User also select a profile picture, and able to send Emoji also. It has a REST API and uses WebSockets to notify clients of new messages and avoid polling`,
+      imgUrl:chat,
+      url:"https://github.com/lord2anil/Chat-app-using-Socket-node.js-React.git"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: url,
+      title: "News web App",
+      description: `"Its user-friendly interface, its integration with the News API, and its ability to provide up-to-date news articles
+      , And also provide the ability to select multiple category of news",`,
+      imgUrl:news,
+      url:"https://github.com/lord2anil/newsapp1.git"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl:url,
+      title: "E-commerce website",
+      description: `Implements the functioning of an E-commerce Website that contains various pages like Home, products, cart,product
+      details, add to cart, billing, and much more, developed by Using HTML, CSS, JAVA Script React.
+      `,
+      imgUrl:cart,
+      url:"https://github.com/lord2anil/Ecommerce.github.io.git"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: url,
+      title: "My Notes",
+      description: `"Under Development...`,
+      imgUrl:notes,
+      url:"https://github.com/lord2anil/mybook.git"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl:url,
+      title: "Path Finder",
+      description: `PathFinding Visualizer’ is a web based e-Learning tool that visualizes shortest path algorithms. The concept
+      behind the tool is illustrated by implementing algorithms such as Dijkstra’s algo, A* and DFS,`,
+      imgUrl:path,
+      url:"https://pathfinder2002.netlify.app/"
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: url,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl:url,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: url,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl:url,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: url,
-    },
+    
+    
+   
+    
     
   ];
 
@@ -90,7 +83,8 @@ import TrackVisibility from 'react-on-screen';
                         {
                           projects.map((project, index) => {
                             return (
-                              <ProjectCard
+
+                               <ProjectCard
                                 key={index}
                                 {...project}
                                 />
