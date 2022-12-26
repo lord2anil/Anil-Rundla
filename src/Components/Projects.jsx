@@ -14,18 +14,30 @@ import TrackVisibility from 'react-on-screen';
 
   const projects = [
     {
-      title: "Chat app",
-      description: `A small functional person-to-person message center application built using Socket.io, Node js . The dataBase is
-      MongoDB. User also select a profile picture, and able to send Emoji also. It has a REST API and uses WebSockets to notify clients of new messages and avoid polling`,
+      title: "Chat Flow",
+      description: `
+       » Tools & technologies used: Socket.io, Node Js, React Js, HTML , CSS , JS, MongoDB
+      » Developed a full-stack web chat application using React and Node.js. Implemented real-time messaging functionality
+      using Socket.io and a MongoDB database to store and retrieve user messages. Utilized JWT authentication to secure
+      user login and permissions`,
       imgUrl:chat,
       url:"https://github.com/lord2anil/Chat-app-using-Socket-node.js-React.git"
     },
     {
-      title: "News web App",
-      description: `"Its user-friendly interface, its integration with the News API, and its ability to provide up-to-date news articles
-      , And also provide the ability to select multiple category of news",`,
+      title: "NewsHub",
+      description: `Tools & technologies used: React.js, HTML, CSS, Java Script , Bootstrap5, News API
+      » Developed a full-stack web news application using React and JavaScript. Utilized the News API to retrieve and display
+      real-time news articles to users. Incorporated Bootstrap and Bootstrap5 for responsive design and layout`,
       imgUrl:news,
       url:"https://github.com/lord2anil/newsapp1.git"
+    },
+    {
+      title:  "MemoBoard",
+      description: `Developed a full-stack web application for saving user notes using React and Node.js. Utilized a MongoDB database
+      to store and retrieve user notes. Incorporated Bootstrap5 for responsive design and layout. Implemented JWT
+      authentication to secure user login and permissions`,
+      imgUrl:notes,
+      url:"https://github.com/lord2anil/mybook.git"
     },
     {
       title: "E-commerce website",
@@ -34,12 +46,6 @@ import TrackVisibility from 'react-on-screen';
       `,
       imgUrl:cart,
       url:"https://github.com/lord2anil/Ecommerce.github.io.git"
-    },
-    {
-      title: "My Notes",
-      description: `"Under Development...`,
-      imgUrl:notes,
-      url:"https://github.com/lord2anil/mybook.git"
     },
     {
       title: "Path Finder",
