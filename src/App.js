@@ -15,6 +15,7 @@ import './App.css';
 
 import Cp from './Components/Cp'
 import Banner  from './Components/Banner'
+import Experience from './Components/Experience'
 export default function App() {
   return (
     <>
@@ -23,6 +24,7 @@ export default function App() {
     <Banner/>
     </div>
      <About/>
+     <Experience/>
      <Skill/>
      <Cp/>
     
