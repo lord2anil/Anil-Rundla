@@ -5,7 +5,7 @@ import logo from '../assets/img/anil.svg';
 // import navIcon2 from '../assets/img/nav-icon2.svg';
 // import navIcon3 from '../assets/img/nav-icon3.svg';
 // import url from "./img/leetcode.svg"
-
+import './css/Navbar.css'
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -46,10 +46,10 @@ export default function Navbar1() {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#About" className={activeLink === 'About' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('About')}>About</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#home" className={activeLink === 'home' ? 'btn11 active navbar-link' : 'btn11 navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+              <Nav.Link href="#About" className={activeLink === 'About' ? 'btn11 active navbar-link' : 'btn11 navbar-link'} onClick={() => onUpdateActiveLink('About')}>About</Nav.Link>
+              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'btn11 active navbar-link' : 'btn11 navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'btn11  active navbar-link' : 'btn11 navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
             <span className="navbar-text">
               {/* <div className="social-icon">

@@ -228,3 +228,58 @@ header{
     transition: 0.5s;
   }
   
+
+
+
+
+
+
+  .btn11 {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+  }
+  
+  .btn11::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #16010d;
+    transition: .5s ease;
+  }
+  
+  .btn11:hover {
+    color: #1e1e2b;
+    transition-delay: .5s;
+  }
+  
+  .btn11:hover::before {
+    width: 100%;
+  }
+  
+  .btn11::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #190c2b;
+    transition: .4s ease;
+    z-index: -1;
+    border-radius: 10px;
+  }
+  
+  .btn11:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
