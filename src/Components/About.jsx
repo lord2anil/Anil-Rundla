@@ -4,7 +4,7 @@ import "./css/style.css";
 import "./css/media.css";
 
 import "./css/Info.css";
-import url from "../assets/img/my.jpg"
+import url from "../assets/img/my2.jpg"
 import TrackVisibility from 'react-on-screen';
 // import { isVisible } from '@testing-library/user-event/dist/utils';
 export default function About() {
