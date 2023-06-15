@@ -46,7 +46,7 @@ export default function Navbar1() {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home11' ? 'btn11 active navbar-link' : 'btn11 navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+              <Nav.Link href="#home" className={activeLink === 'home' ? 'btn11 active navbar-link' : 'btn11 navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#About" className={activeLink === 'About' ? 'btn11 active navbar-link' : 'btn11 navbar-link'} onClick={() => onUpdateActiveLink('About')}>About</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'btn11 active navbar-link' : 'btn11 navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'btn11  active navbar-link' : 'btn11 navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
